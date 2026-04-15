@@ -33,24 +33,6 @@ pkgs.mkShell {
     vulkan-loader
     vulkan-headers
     libarchive
-    freetype
-    fribidi
-    fontconfig
-    glslang
-    libsndfile
-    speex
-    speexdsp
-    dav1d
-    libaom
-    fdk_aac
-    lame
-    libvorbis
-    libogg
-    libvpx
-    libopus
-    svt-av1
-    x264
-    x265
     python313Packages.yt-dlp
   ] ++ common.buildInputs;
 }
