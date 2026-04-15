@@ -44,8 +44,6 @@
     inetutils
     less
     perl
-    perl5Packages.XMLParser
-    intltool
     autoconf
     automake
     openssl_3_6
