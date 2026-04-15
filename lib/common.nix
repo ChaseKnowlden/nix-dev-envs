@@ -5,6 +5,7 @@
     man-pages
     iana-etc
     glibc
+    tzdata
     zlib
     bzip2
     xz
