@@ -1,7 +1,7 @@
 let
   nixpkgs = fetchTarball "https://github.com/NixOS/nixpkgs/tarball/master";
   pkgs = import nixpkgs { config = {}; overlays = []; };
-  common = import ../common.nix { inherit pkgs; };
+  common = import ../lib/common.nix { inherit pkgs; };
 in
 
 pkgs.mkShell {
